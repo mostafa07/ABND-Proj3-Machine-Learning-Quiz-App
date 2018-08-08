@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <include layout="@layout/question_header" />
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/q4_text"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:id="@+id/q4_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/q4_op1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q4_o1" />
+
+        <RadioButton
+            android:id="@+id/q4_op2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q4_o2" />
+
+        <RadioButton
+            android:id="@+id/q4_op3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q4_o3" />
+
+    </RadioGroup>
+
+</merge>

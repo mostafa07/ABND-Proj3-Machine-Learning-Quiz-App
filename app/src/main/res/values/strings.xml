@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">QuizApp_ML</string>
+
+    <string name="q0">QUESTION</string>
+    <string name="q1">QUESTION 1:</string>
+    <string name="q2">QUESTION 2:</string>
+    <string name="q3">QUESTION 3:</string>
+    <string name="q4">QUESTION 4:</string>
+    <string name="q5">QUESTION 5:</string>
+
+    <string name="q1_text">Machine Learning has all of the following topics under its
+        umbrella, except:</string>
+    <string name="q2_text">Select all true statements:</string>
+    <string name="q3_text">In Neural Networks, as the number of layers ______, the model
+        complexity increases</string>
+    <string name="q4_text">Overfitting is the same as:</string>
+    <string name="q5_text">Regularization should be used to:</string>
+    <string name="q6_text">Machine Learning is about data and algorithms, but mostly data.\n
+        Do you agree with this? Yes/No</string>
+
+    <string name="inc">increases</string>
+    <string name="dec">decreases</string>
+    <string name="q1_o1">Supervised Learning</string>
+    <string name="q1_o2">Reinforcement Learning</string>
+    <string name="q1_o3">Systems Administration</string>
+    <string name="q1_o4">Transfer Learning</string>
+    <string name="q1_o5">Classification Problems</string>
+    <string name="q2_o1">Regression is a supervised learning problem</string>
+    <string name="q2_o2">Regression is an unsupervised learning problem</string>
+    <string name="q2_o3">Classification is a supervised learning problem</string>
+    <string name="q2_o4">Classification is an unsupervised learning problem</string>
+    <string name="q2_o5">Clustering is a supervised learning problem</string>
+    <string name="q2_o6">Clustering is an unsupervised learning problem</string>
+    <string name="q4_o1">High Bias</string>
+    <string name="q4_o2">High Variance</string>
+    <string name="q4_o3">Regularization</string>
+    <string name="q5_o1">optimize parameters</string>
+    <string name="q5_o2">decrease overfitting</string>
+    <string name="q5_o3">vectorize expressions</string>
+    <string name="q5_o4">increase overfitting</string>
+    <string name="q6_hint">Type: Yes or No</string>
+
+    <string name="submit">Submit</string>
+
+</resources>
